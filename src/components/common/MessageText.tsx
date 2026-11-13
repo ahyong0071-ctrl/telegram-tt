@@ -1,3 +1,4 @@
+import { TranslatedText } from './TranslatedText';
 import {
   memo, useMemo, useRef,
 } from '../../lib/teact/teact';
