@@ -146,9 +146,10 @@ function MessageText({
             shouldRenderPlaceholder={shouldRenderTypingPlaceholder}
             onCompleted={onTypingAnimationEnd}
             completionKey={messageOrStory.id}
-          />      <TranslatedText text={textToRender.text} />
+          />      
         ) : renderText(textToRender),
       ].flat().filter(Boolean)}
+      <TranslatedText text={textToRender.text} />
     </>
   );
 }
