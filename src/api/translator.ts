@@ -57,3 +57,4 @@ export async function translateText(text: string): Promise<string> {
 
   return '';
 }
+
